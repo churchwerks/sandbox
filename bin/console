@@ -1,6 +1,12 @@
 #!/usr/bin/env ruby
 
+require "bundler/setup"
+require "./lib/filename"
+
 require 'pry'
 puts "Welcome to the Sandbox"
 
 pry.start
+def reload!
+  load './config/environment.rb'
+end
