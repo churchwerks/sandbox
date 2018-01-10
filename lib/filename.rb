@@ -1,3 +1,7 @@
 class Filename
-  puts "Hello World!"
+
+  def say_hello
+    puts "Hello World!"
+  end
+
 end
