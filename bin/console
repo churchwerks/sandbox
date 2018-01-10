@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'pry'
+puts "Welcome to the Sandbox"
+
+pry.start
